@@ -1,7 +1,11 @@
 {
   "name": "invoice",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "engines": {
+    "npm": "6.x"
+  },
   "scripts": {
+    "node": "10.16.3",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
