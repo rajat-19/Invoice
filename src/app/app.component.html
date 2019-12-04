@@ -1,0 +1,16 @@
+<div *ngIf="userlogin">
+	<app-topnav></app-topnav>
+	<main>
+    <router-outlet></router-outlet>
+  </main>
+	<app-footer></app-footer>
+</div>
+
+<div *ngIf="!userlogin">
+	<main>
+		<app-login></app-login>
+	</main>
+</div>
+
+
+

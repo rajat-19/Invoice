@@ -1,0 +1,39 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <button class="btn btn-danger">Add Customer</button>
+        </div>
+        <div class="col-md-6">
+            <button class="btn btn-danger">{{allcustomer.length}}-Customer List</button>
+        </div>
+        <div class="col-md-3">
+            <input type="text" class="form-control form-control-sm" placeholder="search">
+        </div>
+    </div>
+    <br>
+    <div class="row">
+            <table class="table table-bordered table-hover table-sm">
+                <thead>
+                    <tr class="bg-primary text-white">
+                        <th>Name</th>
+                        <th>Mobile</th>  
+                        <th>Product</th>
+                        <th>View More</th>
+                    </tr>
+                </thead>
+                <tbody>
+                        
+                    <tr *ngFor="let x of allcustomer">
+                        
+                        <td>{{x.name}}</td>
+                        <td>{{x.mobile}}</td>
+                        <td>{{x.product}}</td>
+                        
+                    
+                    </tr>
+                            
+                </tbody>
+            </table>
+    </div>
+    
+</div>
