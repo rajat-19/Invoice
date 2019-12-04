@@ -24,7 +24,7 @@
     "@angular/platform-browser": "~8.2.12",
     "@angular/platform-browser-dynamic": "~8.2.12",
     "@angular/router": "~8.2.12",
-    "bootstrap": "^4.3.1",
+    "bootstrap": "^4.4.1",
     "bootstrap3": "^3.3.5",
     "bootstrap4": "0.0.1-security",
     "rxjs": "~6.4.0",
